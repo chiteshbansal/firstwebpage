@@ -1,0 +1,210 @@
+.home {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-attachment: scroll;
+	height: auto;
+}
+.tm-interest{
+		background-image: url('interest.jpg');
+	background-size: cover;
+	background-attachment: scroll;
+	height: auto;
+}
+.tm-contact{
+		background-image: url('contact.png');
+	background-size: cover;
+	background-attachment: scroll;
+	height: auto;
+}
+.tm-link{
+	float:left;
+	width:100%;
+	margin-left: 130px;
+	margin-top: 50px;
+}
+.tm-link div{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	font-family: 'Alex Brush';
+  font-size: 40px; 
+  font-style: bold; 
+  font-variant: normal; 
+  font-weight: 700; 
+}
+
+.tm-link a{
+	text-decoration: none;
+  color: red;
+}
+
+.tm-top
+{
+	
+	font-family:'Brush Script MT';
+	font-size: 24px;
+
+}
+.tm-header{
+	margin: 10px 10px;
+	color: white;
+	border: 2px solid white;
+	float: left;
+	text-align: center;
+	padding: 2px 10px;
+}
+.tm-header-interest{
+	margin: 10px 10px;
+	color: black;
+	border: 2px solid black;
+	border-width: 15%;
+	float: left;
+	text-align: center;
+	padding: 0px 20px;
+}
+
+
+.tm-section
+{
+	clear: both;
+	max-width:35%;
+	float:left;
+}
+.tm-section::after
+{
+	content: :;
+	clear: both;
+	display: block;
+	visibility: none;
+}
+img{
+	margin-top: 30px;
+	margin-left: 30px;
+	border-radius: 20px;
+	height: auto;
+	display: inline-block;
+}
+.tm-section img:hover {
+  transform: scaleX(-1);
+}
+
+.tm-nav ,.tm-nav-interest
+{
+	margin: 10px 10px;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+		float: right;
+}
+.tm-nav div
+{
+	display: inline-block;
+	margin: 20px 30px;
+	font-size: 30px;
+	color: white;
+}
+.tm-nav-interest div
+{
+	display: inline-block;
+	margin: 20px 30px;
+	font-size: 30px;
+	color: black;
+}
+
+.tm-nav-interest div a{
+		color: black;
+		text-decoration: none;
+}
+.tm-nav div a{
+		color: white;
+		text-decoration: none;
+}
+
+.tm-nav,.tm-nav-interest div a:hover
+{
+	color: blue;
+}
+
+.tm-nav div a:hover
+{
+	color: blue;
+}
+.tm-name 
+ {
+ 	clear :both;
+	 font-family: 'Alex Brush';
+  font-size: 40px; 
+  font-style: bold; 
+  font-variant: normal; 
+  font-weight: 700; 
+  color: white;
+  margin-left: 50px;
+  display: inline-block;
+ 
+
+}
+.tm-content-interest{
+	clear:both;
+	
+	padding-top: 10px;
+	font-family: "Alex Brush";
+	font-size: 40px; 
+  font-style: bold; 
+  font-variant: normal; 
+  font-weight: 700; 
+}
+.tm-list
+{
+	
+	padding-top: 10px;
+	font-family: "Alex Brush";
+	font-size: 50px; 
+  font-style: bolder; 
+  font-variant: normal; 
+  font-weight: 700; 
+
+}
+.tm-footer-interest{
+	margin:30px 15px;
+	padding-top: 20px;
+	font-family: "Alex Brush";
+	font-size: 60px; 
+  font-style: bold; 
+  font-variant: normal; 
+  font-weight: 700; 
+
+}
+.tm-list ul
+{
+	list-style-type: decimal;
+	letter-spacing: 2px;
+}
+.tm-content{
+	color: white;
+	 font-family: 'Charm';
+	font-size: 50px;	
+	max-width: 55%;
+	float: right;
+	margin: 20px 20px;
+  padding: 20px 20px;
+
+}
+.tm-name::first-letter{
+	font-size: 200%;
+	font-style: bold;
+	line-height: 40px;
+
+}
+.tm-city,.tm-hall {
+	color: white;
+	text-decoration: none;	
+}
+a:hover{
+	color:yellow;
+}
+
+.tm-footer{
+	text-align:center;
+	font-style: bold;
+}
+
